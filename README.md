@@ -2,7 +2,7 @@
 
 ![SINFONI H-band datacube](https://github.com/chetnaduggal/IFU-datacube-analysis/assets/67710398/85aeb7fe-adb3-45ae-8e2d-e0d86ea1ad63)
 
-The code and results in this repository are part of an ongoing study of the host galaxy of quasar 3C 297. The observations were obtained (Cycle 97 program 097.B-0452A; PI G. Tremblay) from the now-decomissioned SINFONI instrument at the ESO Very Large Telescope (VLT), Chile. 
+The codes and results in this repository are part of an ongoing study of the host galaxy of quasar 3C 297. The observations were obtained (Cycle 97 program 097.B-0452A; PI G. Tremblay) from the now-decomissioned SINFONI instrument at the ESO Very Large Telescope (VLT), Chile. 
 The data are now in public domain and the raw files are available [here](http://archive.eso.org/wdb/wdb/eso/eso_archive_main/query?prog_id=097.B-0452(A)&max_rows_returned=10000).    
 
 ----------------------------
@@ -17,7 +17,8 @@ Thus, some of the analyses are divided spatially into the "nuclear" and "norther
 
 ### Codes
 
-- `pipelined_FOV_fitting_&_maps` |  The main code-- automated spectral modelling for each spaxel in the FOV of the 30x34 mini-cube centered on the core. The line flux, velocity and velocity dispersion information is also recorded for each spaxel for 2D map construction. The .py file has the code, since the .ipynb file with the fitting outputs for 1020 spaxels is too large for Github to display.   
+- `pipelined_FOV_fitting_&_maps` |  The main code-- automated spectral modelling for each spaxel in the FOV of the 30x34 mini-cube centered on the core. The line flux, velocity and velocity dispersion information is also recorded for each spaxel for 2D map construction.
+The .py file shows the code at a glance, while the .ipynb file with the fitting outputs for 1020 spaxels is too large for Github to display.   
 - `3c297_broad&narrow_line_maps.ipynb` |  Creating line flux, velocity and velocity dispersion maps for all the detected lines in 3c297 spectrum (H\alpha, [NII] and [SII]). 
 - `spaxelwise_Nuclear7x7_NorthernArc.ipynb` |  This script does spaxel-wise line fitting on the nuclear 7x7 spaxel region and the northern arc. Each output shows the resulting fit values and plots the model+residuals on the observed spectrum. 
 - `3c297_overlays.ipynb` |   Overlays for comparing .....
