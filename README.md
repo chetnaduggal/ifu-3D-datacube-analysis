@@ -17,14 +17,14 @@ Thus, some of the analyses are divided spatially into the "nuclear" and "norther
 
 ### Codes
 
-- `pipelined_FOV_fitting_&_maps` |  The main code-- automated spectral modelling in the FOV of the 30x34 mini-cube centered on the core. The line flux, velocity and velocity dispersion information is also recorded for each spaxel for 2D map construction.
+- `pipelined_FOV_fitting_&_maps` |  The main code-- automated spaxel-wise spectral modelling over a 30x34 mini-cube centered on the core. The line flux, velocity and velocity dispersion information is also recorded for each spaxel for 2D map construction.
 
 The .py file shows the code at a glance, while the .ipynb file with the fitting outputs for 1020 spaxels is too large for Github to display.   
 
 - `3c297_broad&narrow_line_maps.ipynb` |  Creating line flux, velocity and velocity dispersion maps for all the detected lines in 3c297 spectrum (Halpha, [N II] and [S II]). 
 - `spaxelwise_Nuclear7x7_NorthernArc.ipynb` |  This script does spaxel-wise line fitting on the nuclear 7x7 spaxel region and the northern arc. Each output shows the resulting fit values and plots the model+residuals on the observed spectrum. 
-- `3c297_overlays.ipynb` |   Overlays for comparing .....
-- `WHAN_diagnostic_spaxelwise.ipynb` |  Script to perform WHAN analysis ...
+- `3c297_overlays.ipynb` |  Multi-band overlays for comparing emission in the optical, UV, radio and line-emitting gas. 
+- `WHAN_diagnostic_spaxelwise.ipynb` |  Script to perform WHAN emission-line diagnostics to find out the source of ionization of the narrow-line emitting gas.
 - `telluricOH_fitting.ipynb` |  Computing instrumental line broadening from telluric OH lines in the pre-background subtraction datacube.
 - `generate_error_cube.ipynb` |  This script creates an "error cube" form the noise in the observed data, for fittting uncertainty computations.
 - `3x3central_leastsq_coupledfit.ipynb` |  A simple script that illustrates the 6-component Gaussian fitting used for spectral modelling in our analysis. Integrating the spectra of the central 3x3 spaxel region, the modelling shows a clear broad component in Halpha.
