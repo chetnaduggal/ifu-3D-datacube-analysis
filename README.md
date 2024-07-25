@@ -13,10 +13,9 @@ The H-band (1.45−1.85 μm) data were reduced using the standard ESO-SINFONI pi
 
 The galaxy has a highly perturbed morphology, with a prominent arc towards north of the core, which is cospatial with the jet axis (green contours from radio overlay). This suggests its a site of jet-ISM interaction from the expanding radio lobes. 
 
-A quick look at the line profiles over the field of view showed that the broad line emission is limited to the nuclear region- which as we found were due to outflowing ionized gas over ~10 kpc. The northern arc-like feature only shows narrow line emission and is likely a site of active star formation.  
+A quick look at the line profiles over the field of view showed that the broad line emission is limited to the nuclear region-- which were found to be due to kpc-scale outflowing (ionized) gas. The northern arc-like feature only shows narrow line emission and is likely a site of active star formation.  
 
-Thus, all the analyses are divided spatially into the "NUCLEAR" and "NORTHERN ARC" regions.
-
+Thus, _all the analyses are divided spatially into the "NUCLEAR" and "NORTHERN ARC" regions._
 
 ### Codes
 
