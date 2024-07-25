@@ -19,5 +19,19 @@ Thus, _all the analyses are divided spatially into the "NUCLEAR" and "NORTHERN A
 
 ### Codes
 
-- `.ipynb` |  Script to calculate ...
-- spectrum modelling 
+- `spaxelwise_Nuclear7x7_NorthernArc.ipynb` |  Script to calculate ...
+- `pipelined_FOV_fitting_&_maps.ipynb` and `pipelined_FOV_fitting_&_maps.py` |  spectrum modelling
+- `3c297_broad&narrow_line_maps.ipynb` |
+- `3c297_overlays.ipynb` |
+- `WHAN_diagnostic_spaxelwise.ipynb` |
+- `telluricOH_fitting.ipynb` |
+
+----------------------------
+
+![](https://github.com/chetnaduggal/ifu-3D-datacube-analysis/blob/f7bdc12496aa005c6ef48d8a0624e7f3d6bae30b/int-regions-spectra.pdf)
+
+
+
+
+
+
