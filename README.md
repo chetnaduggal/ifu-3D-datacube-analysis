@@ -11,9 +11,7 @@ The data are now in public domain and the raw files are available [here](http://
 
 The H-band (1.45−1.85 μm) data were reduced using the standard ESO-SINFONI pipeline. After sky subtraction and wavelength calibration, the final co-added data cube has a spatial scale of 0.125′′ per pix. The field of view is 8′′ × 8′′. The angular resolution is ∼0.4′′ as sampled by the point-spread function (PSF) from the standard star observations. At the target redshift, this translates to spatial resolution of ∼3 kpc. 
 
-The galaxy has a highly perturbed morphology, with a prominent arc towards north of the core, which is cospatial with the jet axis (green contours from radio overlay). This suggests its a site of jet-ISM interaction from the expanding radio lobes. 
-
-A quick look at the line profiles over the field of view showed that the _broad line emission is limited to the nuclear region_-- which were found to be due to kpc-scale outflowing (ionized) gas. The northern arc-like feature only shows narrow line emission and is likely a site of active star formation.  
+The galaxy has a highly perturbed morphology, with a prominent arc towards north of the core. A quick look at the line profiles over the field of view showed that the _broad line emission is limited to the nuclear region_-- which also shows blue-to-red shift roughly around the twin AGN in the nucleus. The northern arc-like feature only shows narrow line emission and bright UV emission in the HST-SINFONI overlay.
 
 Thus, some of the analyses are divided spatially into the "nuclear" and "northern arc" regions.
 
