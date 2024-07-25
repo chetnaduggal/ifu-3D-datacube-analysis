@@ -30,7 +30,7 @@ Thus, some of the analyses are divided spatially into the "nuclear" and "norther
 
 ----------------------------
 
-![media](https://github.com/chetnaduggal/ifu-3D-datacube-analysis/blob/f7bdc12496aa005c6ef48d8a0624e7f3d6bae30b/int-regions-spectra.pdf)
+![media](https://github.com/chetnaduggal/ifu-3D-datacube-analysis/blob/dbb2273ca01a6ae0a13d48cb7c630dbadd3ec4de/int-regions-spectra.png)
 
 
 
